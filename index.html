@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Cafe Pokrishka</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;          /* отступы от краёв страницы */
+      background: #f5f5f5;    /* светлый фон */
+      display: flex;
+      flex-direction: column;
+      gap: 20px;              /* расстояние между картинками */
+    }
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;    /* скруглённые углы */
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* лёгкая тень */
+      transition: transform 0.3s;
+    }
+    img:hover {
+      transform: scale(1.02); /* лёгкое увеличение при наведении */
+    }
+  </style>
+</head>
+<body>
+  <img src="menu1.jpg" alt="Картинка 1">
+  <img src="menu2.jpg" alt="Картинка 2">
+ /* <img src="menu3.jpg" alt="Картинка 3"> */
+  <img src="menu4.jpg" alt="Картинка 4">
+</body>
+</html>
